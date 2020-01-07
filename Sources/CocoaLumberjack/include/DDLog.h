@@ -726,13 +726,13 @@ FOUNDATION_EXTERN NSString * __nullable DDExtractFileNameWithoutExtension(const 
  *     return ddLogLevel;
  * }
  *
- * + (void)ddSetLogLevel:(DDLogLevel)level
+ * + (void)ddIDGSetLogLevel:(DDLogLevel)level
  * {
  *     ddLogLevel = level;
  * }
  * ```
  **/
-@property (class, nonatomic, readwrite, setter=ddSetLogLevel:) DDLogLevel ddLogLevel;
+@property (class, nonatomic, readwrite, setter=ddIDGSetLogLevel:) DDLogLevel ddLogLevel;
 
 @end
 
